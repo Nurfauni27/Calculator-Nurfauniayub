@@ -30,12 +30,12 @@
 
 @media all and (max-width: 670px) {
     .calculator {
-        height: 50%;
         width: 50%;
     }
 
     .calculator-screen {
         border-radius: 18px;
+        width: 50%;
     }
     
     
@@ -50,7 +50,7 @@
     }
     
     .equal-sign {
-        width: 50%;
+        width: 100%;
         font-size: 25px;
     }
 }
