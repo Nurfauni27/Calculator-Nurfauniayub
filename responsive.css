@@ -1,36 +1,4 @@
 @charset "utf-8";
 
-@media all and (max-width: 1000px) {
-    .calculator {
-        height: 100%;
-        width: 100%;
-    }
 
-    .calculator-screen {
-        border-radius: 28px;
-    }
-    
-    
-    input{
-        font-size: 30px;
-    }
-    
-    
-    button {
-        width: 100%;
-        font-size: 20px;
-    }
-    
-    .equal-sign {
-        width: 100%;
-        font-size: 30px;
-    }
-}
-
-
-@media (max-width: 670px) {
-    .calculator, .calculator-screen {
-        width: 50%;
-
-}
 
