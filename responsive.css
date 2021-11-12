@@ -29,29 +29,8 @@
 
 
 @media all and (max-width: 670px) {
-    .calculator {
+    .calculator, .calculator-screen {
         width: 50%;
-    }
 
-    .calculator-screen {
-        border-radius: 18px;
-        width: 50%;
-    }
-    
-    
-    input{
-        font-size: 25px;
-    }
-    
-    
-    button {
-        width: 50%;
-        font-size: 15px;
-    }
-    
-    .equal-sign {
-        width: 100%;
-        font-size: 25px;
-    }
 }
 
