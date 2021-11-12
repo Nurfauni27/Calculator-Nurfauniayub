@@ -93,13 +93,3 @@ button:hover {
 	font-size: 40px;
 	text-align: center;
 }
-
-@media (max-width:480px) {
-	.calculator {width: 24%;} 
-	
-}
-
-@media (max-width:320px) {
-	.calculator {width: 23%;} 
-	
-}
