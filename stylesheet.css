@@ -21,8 +21,7 @@ body {
 	padding: 16px;
 	display: grid;
 	width: 680px;
-	grid-template-columns: repeat(4,100px);
-	grid-template-rows: minmax(120px,auto) repeat(5,100px);
+	height: 100vh;
 	background-color: #ffeaa7;
 	border: 2px solid #fdcb6e;
 	margin: auto;
@@ -102,7 +101,6 @@ button:hover {
 @media all and (max-width: 480px) {
 	.calculator-screen {
 		width: 460px;
-		grid-template-columns: repeat(4,100px);
 		border-radius: 20px;
 	}
 	input{
@@ -130,7 +128,6 @@ button {
 @media all and (max-width: 600px) {
 	.calculator-screen {
 		width: 500px;
-		grid-template-columns: repeat(4,125px);
 	}
 	input{
 		padding: 30px;
