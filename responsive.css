@@ -1,4 +1,25 @@
 @charset "utf-8";
 
+@media (max-width: 400px) and (min-height: 400px) {
+  html {
+    font-size: 20px;
+  }
+}
 
+@media (max-width: 500px) and (min-height: 500px) {
+  html {
+    font-size: 30px;
+  }
+}
+  
+@media (max-width: 600px) and (min-height: 600px) {
+  html {
+    font-size: 40px;
+  }
+}
 
+@media (max-width: 800px) and (min-height: 800px) {
+  html {
+    font-size: 50px;
+  }
+}
