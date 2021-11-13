@@ -100,8 +100,8 @@ button:hover {
 
 @media all and (max-width: 480px) {
 	.calculator-screen {
-		width: 460px;
-		height: 600px;
+		width: 100vh;
+		height: 100vh;
 	}
 	input{
 	padding: 30px;
@@ -127,7 +127,7 @@ button {
 
 @media all and (max-width: 600px) {
 	.calculator-screen {
-		width: 580px;
+		width: 100vh;
 		height: 100vh;
 	}
 	input{
