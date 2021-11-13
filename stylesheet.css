@@ -93,15 +93,15 @@ button:hover {
 	text-align: center;
 }
 
-@media (max-width: 320px) and (max-height: 320px){
+@media all and (max-width: 320px) {
 	.calculator-screen {
-		width: 100%;
+		width: 300px;
 	}
 }
 
 
-@media (max-width: 480px) and (max-height: 480px){
+@media (max-width: 480px) {
 	.calculator-screen {
-		width: 55%;
+		width: 460px;
 	}
 }
