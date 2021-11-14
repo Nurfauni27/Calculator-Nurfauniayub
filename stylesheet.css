@@ -1,6 +1,8 @@
 @charset "utf-8";
 
   
+@charset "utf-8";
+  
 body {
     padding: 0;
     margin: 0;
@@ -17,7 +19,6 @@ body {
 
 .calculator-screen {
 	box-shadow: 6px 6px 13px rgba(0, 0, 0, .16), 6px 6px 13px rgba(0, 0, 0, 0.192);
-	width: 500px;
 	align-items: center;
 	height: 90vh;
 	border-radius: 28px;
@@ -52,14 +53,14 @@ button {
 	box-shadow: 6px 6px 13px rgba(0, 0, 0, .16), 6px 6px 13px rgba(0, 0, 0, 0.192); 
 	background-color: #ecf0f3;
 	border: 1px solid orange;
-	width: 50%;
+	width: 60%;
 	height: 75%;
 	font-weight: bold;
 	color: orange;
 	text-align: center;
 	font-size: 1.5rem;
-	border-radius: 50%;
-	margin: 30% 0% 0% 20%;
+	border-radius: 20px;
+	margin: 30% 0px 0px 12%;
 }
 
 
@@ -95,22 +96,19 @@ button:hover {
 .equal-sign {
 	grid-columns: span 2; 
 	text-align: center;
-	width: 140%;
+	width: 155%;
 	border-radius: 20px;
 	font-size: 3rem;
 }
 
 
 @media all and (max-width: 480px) {
-	.calculator-screen {
-		width: 400px;}
 	input{
-		font-size: 2rem;}
+		font-size: 30px;}
 	button {
 		font-size: 1.5rem;}
 	.equal-sign {
-		font-size: 3rem;
-	border-radius: 45%;}
+		font-size: 1rem;}
 	.all-clear, .delete{
 		font-size: 20px;
 }
