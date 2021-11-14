@@ -5,12 +5,15 @@ body {
     padding: 0;
     margin: 0;
     background-color: #ecf0f3;
+	border: 2px solid black;
 }
 
 .calculator {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	background-color: #ecf0f3;
+	border: 2px solid red;
 	margin: auto;
 	
 }
@@ -102,13 +105,13 @@ button:hover {
 
 @media all and (max-width: 480px) {
 	input{
-		font-size: 30px;}
+		font-size: 2rem;}
 	button {
 		font-size: 1.5rem;}
 	.equal-sign {
-		font-size: 1rem;}
+		font-size: 1.7rem;}
 	.all-clear, .delete{
-		font-size: 20px;
+		font-size: 1rem;
 }
 }
 
@@ -118,8 +121,20 @@ button:hover {
 	button {
 		font-size: 1.5rem;}
 	.equal-sign {
+		font-size: 2rem; }
+	.all-clear, .delete {
+		font-size: 1.5rem;
+}
+}
+
+@media all and (max-width: 1024px) {
+	input{
+		font-size: 3rem;}
+	button {
+		font-size: 2rem;}
+	.equal-sign {
 		font-size: 3rem; }
 	.all-clear, .delete {
-		font-size: 20px;
+		font-size: 1.5rem;
 }
 }
