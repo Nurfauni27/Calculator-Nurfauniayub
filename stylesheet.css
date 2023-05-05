@@ -50,11 +50,11 @@ button {
 	align-items: center;
 	box-shadow: 6px 6px 13px rgba(0, 0, 0, .16), 6px 6px 13px rgba(0, 0, 0, 0.192); 
 	background-color: #ecf0f3;
-	border: 1px solid orange;
+	border: 1px solid black;
 	width: 60%;
 	height: 75%;
 	font-weight: bold;
-	color: orange;
+	color: black;
 	text-align: center;
 	font-size: 1.5rem;
 	border-radius: 20px;
@@ -63,7 +63,7 @@ button {
 
 
 .operator, .equal-sign{
-	background-color: orange;
+	background-color: black;
 }
 
 button:hover {
@@ -86,7 +86,7 @@ button:hover {
 }
 
 .equal-sign, .operator{
-	background-color: orange;
+	background-color: black;
 	color: black;
 	border: none;
 }
